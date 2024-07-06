@@ -1,5 +1,14 @@
+/*
+  Warnings:
+
+  - You are about to drop the `referral` table. If the table is not empty, all the data it contains will be lost.
+
+*/
+-- DropTable
+DROP TABLE `referral`;
+
 -- CreateTable
-CREATE TABLE `referral` (
+CREATE TABLE `Referral` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `referrer` VARCHAR(191) NOT NULL,
     `referrerEmail` VARCHAR(191) NOT NULL,
