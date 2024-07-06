@@ -1,0 +1,30 @@
+{
+  "name": "accredian-backend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debabrata-pw08-429/accredian-backend-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debabrata-pw08-429/accredian-backend-task/issues"
+  },
+  "homepage": "https://github.com/debabrata-pw08-429/accredian-backend-task#readme",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1"
+  }
+}
