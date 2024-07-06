@@ -7,7 +7,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Referral {
+model referral {
   id              Int      @id @default(autoincrement())
   referrer        String
   referrerEmail   String
